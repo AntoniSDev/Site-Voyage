@@ -1,0 +1,98 @@
+
+
+
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    font-size: 1rem;
+}
+
+h1{
+    font-family: 'baloo 2', sans-serif;
+    font-size: 3rem;
+    color: #005b4f;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    width: 60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.point{
+    color: #d32f2f;
+}
+
+
+
+/* HEADER */
+
+header{
+    height: 7.5rem;
+}
+
+header h1{
+    float: left;
+    margin-top: 2rem;
+}
+
+header nav{
+    float: right;
+    margin-top: 3rem;
+}
+
+header nav ul li{
+    display: inline-block;
+
+}
+
+header nav ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: auto;
+    color: #00897b;  
+    width: 8rem;  
+    margin-top: 1rem;  
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 0.5rem #4ebaaa;
+}
+
+header nav ul li a:hover{
+    color: #d32f2f;
+    transform: scale(1.2);
+    transition: all ease 500ms;
+}
+
+
+/*SECTION ACCUEIL*/
+
+
+/*SECTION DESTINATION*/
+
+
+/*SECTION ACTIVITES*/
+
+
+/*SECTION CONTACT*/
+
+
+/* FOOTER */
+
