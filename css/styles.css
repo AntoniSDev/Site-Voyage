@@ -58,7 +58,7 @@ header nav{
 
 header nav ul li{
     display: inline-block;
-
+    
 }
 
 header nav ul li a{
@@ -84,6 +84,41 @@ header nav ul li a:hover{
 
 /*SECTION ACCUEIL*/
 
+#accueil{
+    background: url('../images/jour.jpg') center no-repeat;
+    height: 40rem;
+    box-shadow: 0 0 2rem 2rem white inset;
+}
+
+#accueil h2{
+    font-size: 4rem;
+    text-align: center;
+    color: #9a0007 ;
+    padding-top: 5rem;
+    text-shadow: #4ebaaa 0.2rem 0.1rem 0.2rem;
+    text-transform: uppercase;
+}
+
+#tempo{
+    text-align: center;
+    width: 10rem;
+    height: 3rem;
+    display: block;
+    background:#d32f2f;
+    color: #4ebaaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    margin: 25rem auto;
+    line-height: 3rem;
+    box-shadow: 0 0 0.2rem 0.2rem #4ebaaa inset;    
+}
+
+#tempo:hover{
+    color: #9a0007;
+    transform: scale(1.5);
+    transition: all ease 1000ms;
+}
 
 /*SECTION DESTINATION*/
 
