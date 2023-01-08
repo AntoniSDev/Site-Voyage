@@ -39,8 +39,12 @@
         <section id="accueil">
             <div class="wrapper">
                 <h2>Vivez une expérience</h2>
-                <a href="#"><button onclick="myFunction()" id="tempo">Intemporelle</button></a>
-                
+                <div id="kaka">
+                    <a href="#"onclick="myFunction()" id="tempo">Unique</a>
+                </div>
+                <div id="kaka2" class="hidden">
+                    <a href="#"onclick="myFunction2()" id="tempo2">Unique</a>
+                </div>
 
             </div>
         </section>
@@ -50,9 +54,15 @@
 
         <section id="destinations">
             <div class="wrapper">
-                
-
-            </div>            
+                <h2>Découvrez nos destinations</h2>
+                <div class="bloc">
+                    <article id="chine"></article>
+                    <article id="mars"></article>
+                    <article id="nevers"></article>
+                    <article id="anta"></article>
+                    
+                    
+                       
         </section>
 
 
@@ -81,8 +91,19 @@
 
         </footer>
         <script>function myFunction() {
-            document.getElementById("accueil").style.backgroundImage = "url(images/nuit.jpg)";
-         }         
+            document.getElementById("accueil").style.backgroundImage="url(images/nuit.jpg)";
+            var tempo = document.getElementById("kaka");
+            tempo.classList.add("hidden");
+            var tempo2 = document.getElementById("kaka2");
+            tempo2.classList.remove("hidden");
+         };
+         function myFunction2() {
+            document.getElementById("accueil").style.backgroundImage="url(images/jour.jpg)";
+            var tempo = document.getElementById("kaka");
+            tempo.classList.remove("hidden");
+            var tempo2 = document.getElementById("kaka2");
+            tempo2.classList.add("hidden");
+         }             
          </script>
     </body>
 </html>

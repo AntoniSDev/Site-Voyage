@@ -20,6 +20,10 @@ h1{
     color: #005b4f;
 }
 
+h2{
+    font-family: 'baloo 2', sans-serif;
+}
+
 ul{
     list-style: none;
 }
@@ -38,6 +42,11 @@ a{
     color: #d32f2f;
 }
 
+article{
+    height: 28rem;
+    width: 28rem;
+    border-radius: 1rem;
+}
 
 
 /* HEADER */
@@ -87,19 +96,19 @@ header nav ul li a:hover{
 #accueil{
     background: url('../images/jour.jpg') center no-repeat;
     height: 40rem;
-    box-shadow: 0 0 2rem 2rem white inset;
+    box-shadow: 0 0 1rem 0.5rem white inset;
 }
 
 #accueil h2{
     font-size: 4rem;
     text-align: center;
     color: #9a0007 ;
-    padding-top: 5rem;
+    padding-top: 6rem;
     text-shadow: #4ebaaa 0.2rem 0.1rem 0.2rem;
     text-transform: uppercase;
 }
 
-#tempo{
+#tempo, #tempo2{
     text-align: center;
     width: 10rem;
     height: 3rem;
@@ -109,25 +118,105 @@ header nav ul li a:hover{
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 0.5rem;
-    margin: 25rem auto;
+    margin: 21rem auto 0;
     line-height: 3rem;
     box-shadow: 0 0 0.2rem 0.2rem #4ebaaa inset;    
 }
 
-#tempo:hover{
+#tempo:hover, #tempo2:hover{
     color: #9a0007;
-    transform: scale(1.5);
-    transition: all ease 1000ms;
+    transform: scale(1.2);
+    transition: all ease 500ms;
 }
+
 
 /*SECTION DESTINATION*/
 
+#destinations h2{
+    margin: 3rem auto 3rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #9a0007 ;
+    text-shadow: #4ebaaa 0.2rem 0.1rem 0.2rem;
+    text-transform: uppercase;
+}
 
+.bloc{
+    width: 60rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#chine{
+    background: url('../images/chine1.jpg');
+    background-position: center;  
+    background-size: contain;
+       
+}
+
+#chine:hover{
+    background: url('../images/chine2.jpg');
+    background-position: center;  
+    background-size: contain;
+    transition: 2s ease;
+       
+}
+
+#mars{
+    background: url('../images/mars1.png');   
+    background-position: center;    
+    background-size: contain;
+}
+#mars:hover{
+    background: url('../images/mars2.jpg');   
+    background-position: center;    
+    background-size: contain;
+    transition: 2s ease;
+}
+
+#nevers{
+    background: url('../images/nevers1.jpg'); 
+    background-position: center;   
+    background-size: contain;
+}
+
+#nevers:hover{
+    background: url('../images/nevers2.jpg'); 
+    background-position: center;   
+    background-size: contain;
+    transition: 2s ease;
+}
+
+
+#anta{
+    background: url('../images/anta1.jpg');  
+    background-position: center; 
+    background-size: contain;   
+    transition: 2s ease; 
+}
+
+#anta:hover{
+    background: url('../images/anta2.jpg');  
+    background-position: center; 
+    background-size: contain;    
+    transition: 2s ease;
+}
+
+
+.hidden {
+    display:none;
+}
 /*SECTION ACTIVITES*/
+
 
 
 /*SECTION CONTACT*/
 
 
 /* FOOTER */
+
 
