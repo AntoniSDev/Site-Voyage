@@ -24,7 +24,7 @@ body{
 
 p{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -391,16 +391,15 @@ form{
 #haut{
     display: block;
     width: auto;
-    height: 10rem;  
+    height: 10rem;      
+    align-items: center;
 }
 #bas{
-    margin-top: 3rem;
-    text-align: center;
+    margin-top: 3rem;    
+    align-items: center;
 }
 
-textarea {
-    resize: none;
-  }
+
 
 
 
