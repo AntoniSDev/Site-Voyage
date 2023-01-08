@@ -38,11 +38,11 @@
 
         <section id="accueil">
             <div class="wrapper">
-                <h2>Vivez une expérience</h2>
-                <div id="kaka">
+                <h2>Vivez une expérience<span class="point">.</span></h2>
+                <div id="but1">
                     <a href="#"onclick="myFunction()" id="tempo">Unique</a>
                 </div>
-                <div id="kaka2" class="hidden">
+                <div id="but2" class="hidden">
                     <a href="#"onclick="myFunction2()" id="tempo2">Unique</a>
                 </div>
 
@@ -54,12 +54,19 @@
 
         <section id="destinations">
             <div class="wrapper">
-                <h2>Découvrez nos destinations</h2>
+                <h2>Découvrez nos destinations<span class="point">.</span></h2>
                 <div class="bloc">
-                    <article id="chine"></article>
-                    <article id="mars"></article>
-                    <article id="nevers"></article>
-                    <article id="anta"></article>
+                    <article id="chine">
+                        <p class="description">La chine majestueuse<span class="point">.</span></p></article>
+                    <article id="mars">
+                        <p class="description">La planète Rouge<span class="point">.</span></p></article>
+                    </article>
+                    <article id="nevers">
+                        <p class="description">Nevers sa Sainteté<span class="point">.</span></p></article>
+                    </article>
+                    <article id="anta">
+                        <p class="description">L'antarctique inexplorée<span class="point">.</span></p></article>
+                    </article>
                     
                     
                        
@@ -70,6 +77,21 @@
 
         <section id="activités">
             <div class="wrapper">
+                <h2>Des activités pour tous<span class="point">.</span></h2>
+                <div class="bloc">
+                    <article id="api">
+                        <p class="description">club d'apiculture<span class="point">.</span></article>
+                    </article>
+                    <article id="poule">
+                        <p class="description">marathon de poules<span class="point">.</span></article>
+                    </article>
+                    <article id="star">
+                        <p class="description">Laser game<span class="point">.</span></article>
+                    </article>
+                    <article id="niksen">
+                        <p class="description">L'art du niksen<span class="point">.</span></article>
+                    </article>
+                    
 
             </div>            
         </section>
@@ -79,6 +101,7 @@
 
         <section id="contact">
             <div class="wrapper">
+                <h2>contactez nous<span class="point">.</span></h2>
 
             </div>            
         </section>
@@ -90,18 +113,44 @@
             
 
         </footer>
+
+        <!-- 
+
+            <script>
+/* Déclaration de la fonction pour le bouton 1 */
+function myFunction() {
+    /* On prend l'element avec l'ID accueil, et on lui met l'image de fond nuit.jpg */
+    document.getElementById("accueil").style.backgroundImage="url(images/nuit.jpg)";
+
+    /* On déclare la variable tempo qui récupère l'élement avec l'ID but1 */
+    var tempo = document.getElementById("but1");
+    /* On rajoute la classe CSS hidden a but1 */
+    tempo.classList.add("hidden");
+
+    /* On déclare la variable tempo2 qui récupère l'élement avec l'ID but2 */
+    var tempo2 = document.getElementById("but2");
+    /* On enleve la classe hidden a but2 */
+    tempo2.classList.remove("hidden");
+};
+</script>
+
+            
+
+
+
+        -->
         <script>function myFunction() {
             document.getElementById("accueil").style.backgroundImage="url(images/nuit.jpg)";
-            var tempo = document.getElementById("kaka");
+            var tempo = document.getElementById("but1");
             tempo.classList.add("hidden");
-            var tempo2 = document.getElementById("kaka2");
+            var tempo2 = document.getElementById("but2");
             tempo2.classList.remove("hidden");
          };
          function myFunction2() {
             document.getElementById("accueil").style.backgroundImage="url(images/jour.jpg)";
-            var tempo = document.getElementById("kaka");
+            var tempo = document.getElementById("but1");
             tempo.classList.remove("hidden");
-            var tempo2 = document.getElementById("kaka2");
+            var tempo2 = document.getElementById("but2");
             tempo2.classList.add("hidden");
          }             
          </script>
