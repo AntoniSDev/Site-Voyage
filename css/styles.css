@@ -14,12 +14,24 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body{
     font-family: Arial,sans-serif;
     font-size: 1rem;
+}
+
+p{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+p, label, input, textarea{
+    font-family: 'baloo 2', sans-serif;
+    font-size: 1.5rem;
+   
 }
 
 h1{
@@ -30,6 +42,15 @@ h1{
 
 h2{
     font-family: 'baloo 2', sans-serif;
+    border-top: 0.2rem solid #4ebaaa;
+    border-bottom: 0.2rem solid #4ebaaa;
+    height: auto;
+    margin: 2.5rem auto 2rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #9a0007 ;
+    text-shadow: #4ebaaa 0.2rem 0.1rem 0.2rem;
+    text-transform: uppercase;
 }
 
 ul{
@@ -71,17 +92,9 @@ article{
     display:none;
 }
 
-h2{
-    margin: 2.5rem auto 2rem;
-    font-size: 4rem;
-    text-align: center;
-    color: #9a0007 ;
-    text-shadow: #4ebaaa 0.2rem 0.1rem 0.2rem;
-    text-transform: uppercase;
-}
+
 
 .description{
-    font-family: 'baloo 2', sans-serif;
     margin: auto;
     font-size: 2rem;
     text-align: center;
@@ -155,7 +168,10 @@ header nav ul li a:hover{
 
 
 
-
+#h2s
+{
+    background-color: #9a0007;
+}
 
 
 
@@ -167,32 +183,25 @@ header nav ul li a:hover{
     box-shadow: 0 0 1rem 0.5rem white inset;
 }
 
-#accueil h2{
-    font-size: 4rem;
-    text-align: center;
-    color: #9a0007 ;
-    padding-top: 6rem;
-    text-shadow: #4ebaaa 0.2rem 0.1rem 0.2rem;
-    text-transform: uppercase;
-}
 
-#tempo, #tempo2{
+
+#tempo, #tempo2 {
     text-align: center;
+    display: block;
     width: 10rem;
     height: 3rem;
-    display: block;
-    background:#d32f2f;
+    background: #9a0007;
     color: #4ebaaa;
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 0.5rem;
-    margin: 21rem auto 0;
+    margin: 28rem auto;
     line-height: 3rem;
-    box-shadow: 0 0 0.2rem 0.2rem #4ebaaa inset;    
+    box-shadow: 0 0 0.2rem 0.2rem #4ebaaa inset;
 }
 
 #tempo:hover, #tempo2:hover{
-    color: #9a0007;
+    color: #4ebaaa;
     transform: scale(1.2);
     transition: all ease 500ms;
 }
@@ -358,6 +367,13 @@ header nav ul li a:hover{
 /*SECTION CONTACT*/
 
 
+
+form{
+    width: 60rem;
+    height: 20rem;  
+    border-radius: 0.5rem;  
+    background-color: #27b6a1af;    
+}
 
 
 
