@@ -29,7 +29,7 @@ p{
 
 p, label, input, textarea{
     font-family: 'baloo 2', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
    
 }
 
@@ -366,19 +366,6 @@ header nav ul li a:hover{
 /*SECTION CONTACT*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
-
 form{
     display: flex;
     flex-direction: row;
@@ -400,6 +387,45 @@ form{
 
 
 
+
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    margin-top: 10rem;
+    height: 40rem;
+    align-items: center;
+}
+
+#follow{
+    display: flex;
+    font-size: 2rem;
+    height: 3rem;
+    width: 25rem;
+    margin: auto;
+    font-size: 2rem; 
+    background-color: #4ebaaa28;
+    border-radius: 0.3rem;  
+}
+
+.reseaux{
+    display: flex;
+    height: 3rem;
+    width: 15rem;
+    margin: 1rem auto;
+    font-size: 3rem;    
+}
+
+footer div{
+    text-align: center;
+}
 
 
 
