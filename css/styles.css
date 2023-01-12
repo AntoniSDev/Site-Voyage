@@ -181,15 +181,20 @@ header nav ul li a:hover{
 
 #but1, #but2{
 
+position: relative;
+width: 10rem;
+margin:auto;
+padding-top: 35rem;
+
+
 }
 
 #tempo, #tempo2 {
     
-
-    text-align: center;
-    display: block;
+    display: flex; 
+    justify-content: center;
     position: absolute;
-    margin: 35rem;    
+    margin; auto;
     width: 10rem;
     height: 3rem;
     background: #9a0007;
