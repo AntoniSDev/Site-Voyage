@@ -175,13 +175,21 @@ header nav ul li a:hover{
     background: url('../images/jour.jpg') center no-repeat;
     height: 40rem;
     box-shadow: 0 0 1rem 0.5rem white inset;
+    position: relative;       
 }
 
 
+#but1, #but2{
+
+}
 
 #tempo, #tempo2 {
+    
+
     text-align: center;
     display: block;
+    position: absolute;
+    margin: 35rem;    
     width: 10rem;
     height: 3rem;
     background: #9a0007;
@@ -189,7 +197,6 @@ header nav ul li a:hover{
     font-weight: bold;
     text-transform: uppercase;
     border-radius: 0.5rem;
-    margin: 28rem auto;
     line-height: 3rem;
     box-shadow: 0 0 0.2rem 0.2rem #4ebaaa inset;
 }
