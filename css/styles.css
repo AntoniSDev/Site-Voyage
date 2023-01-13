@@ -153,11 +153,18 @@ header h1{
 }
 
 
+.menu-hamburger{
+    display: none;
+    position: absolute;
+    font-size: 3rem;
+    top: 0.5rem;
+    left: 3rem;
+}
 
 
 /* faire disparaitre nav sous 960 px de large ) */
 @media screen and (max-width: 960px) {
-    header .menu-hamburger {
+    header .wrapper .menu-hamburger {
         display: block;
     }
     .navbar {
@@ -193,13 +200,6 @@ header h1{
 }
 
     
-.menu-hamburger{
-    display: none;
-    position: absolute;
-    font-size: 3rem;
-    top: 0.5rem;
-    left: 3rem;
-}
 
 
 
