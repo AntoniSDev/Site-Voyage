@@ -12,27 +12,26 @@
           <div class="wrapper">
                 <h1>Gosu Voyages<span class="point">.</span></h1>
                 
-                    <nav>
+                    <nav class="navbar">
+                       
+                    <div class="nav-links">                 
                        <ul>
-
-                        <li>
+                        <li class="active">
                             <a href="#accueil">Accueil</a>
                         </li>
-
                         <li>
                            <a href="#destinations">Destinations</a>
                         </li>
-
                         <li>
                            <a href="#activités">Activités</a>
                         </li>
-
                         <li>
                            <a href="#contact">Contact</a>
                         </li>
-
                       </ul>
+                    </div>
                     </nav>
+                    <div class="menu-hamburger"><i class="fa-solid fa-bars"></i></div>
             </div>
         </header>
         <div class="acch2"><h2>Vivez une expérience<span class="point">.</span></h2></div>
@@ -192,7 +191,19 @@ function myFunction() {
             tempo.classList.remove("hidden");
             var tempo2 = document.getElementById("but2");
             tempo2.classList.add("hidden");
-         }             
+         }    
+        </script>
+
+        <!-- ajout de la class mobile-menu dans la class .nav-links lors d'un clic sur la class .menu-hamburger -->
+
+        <script>
+        const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })        
+
          </script>
     </body>
 </html>
